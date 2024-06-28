@@ -1,0 +1,94 @@
+/* Desktop1.css */
+
+/* Background styles */
+header {
+  background: url('../assets/background.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 640px;
+}
+
+/* Container styles */
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Heading styles */
+.ha {
+  font-size: 36px;
+  color: #eceaea; /* You can choose your desired text color */
+}
+
+
+/* Search bar styles */
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF; /* Choose your desired button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Image container styles */
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: 100%; /* Adjust the width as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Text content styles */
+.pa {
+  font-size: 16px;
+  color: #ffffff; /* Choose your desired text color */
+}
+
+/* "Learn More" button styles */
+button.learn-more {
+  padding: 10px 20px;
+  background-color: #007BFF; /* Choose your desired button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Center the "Learn More" button */
+.center-button {
+  text-align: center;
+}
+
+.image-row{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+
+.image-size{
+  width: 200px;
+  height: 200px;
+  align-items: center;  
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  
+
+}

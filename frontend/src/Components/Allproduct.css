@@ -1,0 +1,56 @@
+/* Allproduct.css */
+
+/* Page container styles */
+.product-container {
+    background-color: #f0f0f0; /* Background color for the entire page */
+    padding: 20px; /* Add spacing to content */
+  }
+  
+  /* Heading styles */
+  .pab {
+    background-color: #81D4FA; /* Heading background color */
+    color: #fff; /* Heading text color */
+    padding: 10px; /* Add padding to the heading */
+  }
+  
+  /* Table styles */
+  .product-tableb {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  .product-tableb th,
+  .product-tableb td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .product-tableb th {
+    background-color: #333; /* Table header background color */
+    color: #fff; /* Table header text color */
+  }
+  
+  .product-tableb tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+  }
+  
+  .product-tableb tr:hover {
+    background-color: #ccc; /* Row background color on hover */
+  }
+  
+  /* Image styles */
+  .product-tableb img {
+    max-width: 100px; /* Adjust the maximum width for product images */
+    max-height: 100px; /* Adjust the maximum height for product images */
+    display: block; /* Center the image within the cell */
+    margin: 0 auto;
+  }
+  
+  .product_image{
+    width: auto;
+    height: auto;
+    
+
+  }
