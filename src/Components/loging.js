@@ -82,7 +82,7 @@ export default function Login(){
       <Link style={{color:"black"}} to="/signup">Don't have an account? Sign up here.</Link>
     </div>
     <button type="submit" className="btn btn-primary" style={{ borderColor: 'white',background: 'black' ,justifySelf:"center"}}>
-      Login 8.22
+      Login 
     </button>
   </form>
 </div>
